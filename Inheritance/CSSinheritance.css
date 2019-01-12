@@ -1,0 +1,26 @@
+//Order Of precedence
+
+* {
+    background-color: lightcyan;
+}
+
+div{
+    background-color: lightseagreen;//takes precedence over star
+}
+
+.cl1{
+    background-color: lightcoral;//class takes precedence over element
+}
+
+
+#id1{
+    background-color: lightgreen;//Id takes precedence over class
+}
+
+#id1{
+    background-color: lightsteelblue;//in CSS if same property of an(id,class element) is repeated then the property which was introduced later takes precedence.
+}
+.cl1{
+    background-color: lightskyblue;//same thing as above
+}
+
