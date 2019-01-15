@@ -1,0 +1,27 @@
+#para1{
+    font-size: 5vh; /*1vh equal to (1/100) of window height */
+    font-size: 5vw;/*vw is window width*/
+}
+
+#para2{
+    font-family: monospace;
+}
+
+#para3{
+    font-family: sans-serif;
+
+}
+#para4{
+    font-family: Castellar,sans-serif,fantasy,Castellar, sans-serif, fantasy, "Arial Unicode MS";
+    /*Multiple fonts just in case first one is not supported by the browser*/
+    font-style: italic;
+    font-style: oblique;/*same thing as italic*/
+    font-weight: bold;/*makes font bold*/
+
+}
+#para3{
+    word-spacing: 10px;/*there would be a space of 10pixels between the words*/
+    letter-spacing: 1px;/*spaces between letters*/
+
+}
+
