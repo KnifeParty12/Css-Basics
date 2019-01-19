@@ -9,7 +9,7 @@ ul > li { /*Any element matching "li" that is a direct child of UL*/
 ol >li{  /*Any element matching "li" that is a direct child of OL*/
     color: orangered;
 }
-ul li li { /*ant element matching ul that is a descendent of an element matching ul*/
+ul li li { /*any element matching ul that is a descendent of an element matching ul*/
     color:aqua;
 }
 
