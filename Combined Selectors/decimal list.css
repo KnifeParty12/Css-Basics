@@ -1,0 +1,11 @@
+ul ul {
+    display: none;
+}
+
+li:hover li { /*unnecessary styling xD */
+    color: chartreuse;
+}
+
+li:hover > ul{
+    display: block;
+}
